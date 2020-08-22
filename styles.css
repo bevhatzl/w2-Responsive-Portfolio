@@ -1,0 +1,49 @@
+header.container-fluid {
+    background-color: white;
+
+}
+
+.top-row {
+    padding: 15px 10px;
+    
+}
+
+.my-name {
+    font-size: 24px;
+    padding-left: 2%;
+}
+
+body {
+    background-image: url('blue-sky-background.jpg' );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main-heading {
+    width: 300px;
+    padding-top: 15px;
+}
+
+.home-pic {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 5px;
+}
+
+main.container {
+    margin: 50px;
+    
+    background-color: white;
+}
+
+@media only screen and (max-width: 480px) {
+
+    header {
+        /* make navbar collpase into menu */
+    }
+
+  }
+  
