@@ -35,15 +35,14 @@ body {
 
 main.container {
     margin: 50px;
-    
+    max-width: 80%;
     background-color: white;
 }
 
 @media only screen and (max-width: 480px) {
-
+  /*   
     header {
-        /* make navbar collpase into menu */
+        /* make navbar collpase into menu 
     }
-
+    */
   }
-  
