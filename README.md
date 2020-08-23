@@ -1,11 +1,12 @@
 # w2-Responsive-Portfolio
 
 <p>
-The app is composed of 3 pages, index.html, portfolio.html and contact.html. It also has images.
+The app is composed of 3 pages, index.html, portfolio.html and contact.html. It also has images and 1 styles.css.
 </p>
 
 ## Built With
 
+* [Bootstrap](https://getbootstrap.com/)
 * [VScode](https://code.visualstudio.com/) 
 * [Terminal](https:///) 
 * [w3 HTML Validator](https://validator.w3.org/)
