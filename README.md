@@ -32,9 +32,9 @@ Find the deployed project here: (https://bevhatzl.github.io/w2-Responsive-Portfo
 
 ## Screenshots from Contact page - contact.html
 
-![Screenshot of contact.html on small screen](/contact-small.png)
+![Screenshot of contact.html on small screen](/Contact-small.png)
 
-![Screenshot of contact.html on large screen](/contact-large.png)
+![Screenshot of contact.html on large screen](/Contact-large.png)
 
 ## Author
 Beverley Hatzl 2020
