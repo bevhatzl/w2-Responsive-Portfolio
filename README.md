@@ -18,6 +18,30 @@ Find the deployed project here: (https://bevhatzl.github.io/w2-Responsive-Portfo
 
 ![Screenshot showing html was validated.](/HTML-validation.png)
 
+# Screenshots from About Me - index.html
+
+<p>Screenshot of index.html on small screen</p>
+![Screenshot of index.html on small screen](/about-sm.png)
+
+<p>Screenshot of index.html on large screen</p>
+![Screenshot of index.html on large screen](/about-lg.png)
+
+# Screenshots from Portfolio page - portfolio.html
+
+<p>Screenshot of portfolio.html on small screen</p>
+![Screenshot of portfolio.html on small screen](/portfolio-sm.png)
+
+<p>Screenshot of portfolio.html on large screen</p>
+![Screenshot of portfolio.html on large screen](/portfolio-lg.png)
+
+# Screenshots from Contact page - contact.html
+
+<p>Screenshot of contact.html on small screen</p>
+![Screenshot of contact.html on small screen](/contact-small.png)
+
+<p>Screenshot of contact.html on large screen</p>
+![Screenshot of contact.html on large screen](/contact-large.png)
+
 
 ## Author
 Beverley Hatzl 2020
