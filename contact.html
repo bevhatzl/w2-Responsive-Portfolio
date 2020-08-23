@@ -19,6 +19,8 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
+
+            <!-- Nav bar collapses into hamburger menu -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item ml-auto active">
@@ -35,43 +37,32 @@
         </nav>
     </header>
 
-    <main class="container">
+    <!-- Grid with 1 row and 1 column -->
+    <main class="container"> 
         <article class="row">
             <div class="col-sm-12">
                 <h1 class="main-heading">Contact</h1>
                 <hr>                
                 <form>
-                <div class="form-group">
-                    <label for="name">Name:</label>
+                    <div class="form-group">
+                        <label for="name">Name:</label>
                         <input type="text" class="form-control" id="name" size="30" maxlength="100" placeholder="Name">
-                    </label>
-                </div>
-
-                <div class="form-group">
-                    <label for="email">Email:</label>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>  <!-- Email Validation -->
                         <input type="email" class="form-control" id="email" size="30" maxlength="100" placeholder="Email">
-                    </label>
-                </div>
-
-                <div class="form-group">
-                    <label >Message:</label>
-                 
-                    <textarea class="form-control" aria-label="With textarea"></textarea>
-                  </div>
-
-
-                     <button type="submit" class="btn btn-primary">Submit</button>
-                     <br>
-                     <br>
-            </div>
-             </form>   
+                    </div>
+                    <div class="form-group">
+                        <label >Message:</label>
+                        <textarea class="form-control" aria-label="With textarea"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <br>
+                    <br>
+                </form>   
             </div>
         </article>
-
-
     </main>
-
-
 </body>
 
 </html>

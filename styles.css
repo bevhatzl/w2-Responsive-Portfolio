@@ -1,31 +1,29 @@
-
-
-header.container-fluid {
-    background-color: white;
-
-}
-
-.top-row {
-    padding: 15px 10px;
-    
-}
-
-.my-name {
-    font-size: 24px;
-    padding-left: 2%;
-}
-
 body {
     background-image: url('blue-sky-background.jpg' );
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
 
+header.container-fluid {
+    background-color: white;
+}
+
+.top-row {
+    padding: 15px 10px;    
+}
+
+#nav-name {
+    font-size: 24px;
+    padding-left: 2%;
 }
 
 .main-heading {
     width: 300px;
     padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #3399FF;
 }
 
 .home-pic {
@@ -37,9 +35,7 @@ body {
 }
 
 .port-pic {
-
     width: 100%;
-   
     float: left;
     margin-bottom: 10px;
 }
@@ -50,32 +46,6 @@ main.container {
     background-color: white;
 }
 
-
-@media only screen and (max-width: 768px) {
-    .port-pic {
-       max-width: 100%;
-        height: auto;
-        display: block;
-        width: auto;
-    }
-    
-}  
-
-@media only screen and (max-width: 480px) {
-    main.container {
-    min-width: 90%;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    .p-cont {
-        max-width: 95%;
-        margin-left: auto;
-        margin-right: auto;
-
-
-    }  
-  }
-
 .p-cont {
     margin-left: 50px;
     max-width: 50%;
@@ -84,7 +54,6 @@ main.container {
 
 #p-head {
     margin-top: 50px;
-
 }
 
 #last-row {
@@ -93,5 +62,28 @@ main.container {
 
 .pic1, .pic3 {
     margin-right: 10px;
-
 }
+
+/* Responsive display for portfolio images on medium screens */
+@media only screen and (max-width: 768px) {
+    .port-pic {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        width: auto;
+    }   
+}  
+
+/* Responsive display for smaller screens */  
+@media only screen and (max-width: 480px) {
+    main.container { 
+        min-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+    .p-cont {
+        max-width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }  
+}  
