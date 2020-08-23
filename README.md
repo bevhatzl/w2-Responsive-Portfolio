@@ -3,6 +3,9 @@
 <p>
 The app is composed of 3 pages, index.html, portfolio.html and contact.html. It also has images and 1 styles.css.
 </p>
+<p>
+Find the deployed project here: (https://bevhatzl.github.io/w2-Responsive-Portfolio/)
+</p>
 
 ## Built With
 

@@ -9,15 +9,6 @@ header.container-fluid {
     background-color: white;
 }
 
-.top-row {
-    padding: 15px 10px;    
-}
-
-#nav-name {
-    font-size: 24px;
-    padding-left: 2%;
-}
-
 .main-heading {
     width: 300px;
     padding-top: 15px;
@@ -47,29 +38,16 @@ main.container {
 }
 
 .p-cont {
-    margin-left: 50px;
     max-width: 50%;
     background-color: white;
 }
 
-#p-head {
-    margin-top: 50px;
-}
-
-#last-row {
-    margin-bottom: 50px;
-}
-
-.pic1, .pic3 {
-    margin-right: 10px;
-}
-
-/* Responsive display for portfolio images on medium screens */
+/* Responsive display for portfolio images on medium screens */  
 @media only screen and (max-width: 768px) {
     .port-pic {
         max-width: 100%;
         height: auto;
-        display: block;
+        display: block; 
         width: auto;
     }   
 }  
@@ -77,12 +55,12 @@ main.container {
 /* Responsive display for smaller screens */  
 @media only screen and (max-width: 480px) {
     main.container { 
-        min-width: 90%;
+        max-width: 90%;
         margin-left: auto;
         margin-right: auto;
     } 
-    .p-cont {
-        max-width: 95%;
+   .p-cont {
+        max-width: 100%;
         margin-left: auto;
         margin-right: auto;
     }  
